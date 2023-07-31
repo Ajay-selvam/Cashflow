@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  font-family: "Poppins", sans-serif;
+  /* overflow-x: hidden; */
+}
+.white-btn {
+  padding: 0.4em 1em;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  color: #10c577;
+  cursor: pointer;
+}
+.white-btn:hover {
+  color: #1a2721;
+  background-color: aliceblue;
+}
+
+.white-btn-top {
+  padding: 0.4em 1em;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+}
+.white-btn-top:hover {
+  color: #1a2721;
+  background-color: aliceblue;
+  border: none;
+}
+.top-header {
+  background-color: aliceblue;
+  width: fit-content;
+  padding-right: 1em;
+  padding-left: 1em;
+  font-weight: 600;
+  color: #10c577;
+}
+.header-title {
+  color: white;
+  font-size: 32px;
+  line-height: 1.2em;
+  font-weight: 900;
+}
+.header-para {
+  color: white;
+  font-size: smaller;
+}
+.user-create-form {
+  align-self: center;
+}
+.a-link {
+  text-align: left;
+  padding: 1em 1em;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: medium;
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.3s;
+
+}
+.a-link:hover {
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: bold;
+  transform: scale(1.1);
+  box-shadow: 1px 1px 12px rgb(219, 210, 210);
+  border: none;
+}
+.a-link:active .a-link:focus {
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: bold;
+  transform: scale(1.1);
+  box-shadow: 1px 1px 12px rgb(219, 210, 210);
+  border: none;
+}
+
+.table-header {
+  font-size: large;
+  font-weight: bold;
+
+}
+
+#users th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  font-size: small;
+  background-color: #04AA6D;
+  color: white;
+}
+#users {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border-top-right-radius: 18px;
+  border-top-left-radius: 18px;
+}
+
+#users td, #users th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-size: small;
+}
+.form-wrapper-outflow{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 20%;
+  left:30%;
+}
+.form-wrapper-inflow{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 20%;
+  left:30%;
+}
+.row1{
+  display: flex;
+  flex-direction: column;
+}
+.row2{
+  display: flex;
+  flex-direction: row;
+}
+.text-input{
+  width: 360px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-width: 2px;
+  border-bottom-color: rgb(0, 0, 0);
+}
+.text-input:focus{
+  outline: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #04AA6D;
+}
+.date-input{
+  width: 170px;
+  margin-right: 9px;
+  padding: 0.1em;
+}
+.label{
+  font-size: small;
+  color: #04AA6D;
+}
+.button-lite{
+  width: 120px;
+  position: relative;
+  left: 12%;
+  border-radius: 16px;
+  padding: 5px 10px 5px 10px;
+  border: none;
+  background-color: #04AA6D;
+  color: #ffffff;
+  transition: all 0.1s;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px rgb(180, 173, 173);
+}
+.button-lite:hover{
+  transform: scale(1.1);
+}
+.button-lite-two{
+  width: 160px;
+  position: relative;
+  left: 19%;
+  border-radius: 16px;
+  padding: 5px 10px 5px 10px;
+  border: none;
+  background-color: #04AA6D;
+  color: #ffffff;
+  transition: all 0.1s;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px rgb(180, 173, 173);
+}
+.button-lite-two:hover{
+  transform: scale(1.1);
+}
+.dialog-box{
+  width: 100%;
+  height: 100%;
+  background-color: #b2ead5;
+  position: absolute;
+  /* overflow-y: scroll; */
+}
+.dialog-close-div{
+  width: 100%;
+  height: 30px;
+  display: flex;
+  /* justify-content: flex-yyend; */
+  background-color: #ffffff;
+}
+.close-btn{
+  position: relative;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+.close-btn:hover{
+  color: red;
+}
+
+
+
+/*actual styles here*/
+#actual th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  font-size: small;
+  background-color: #04AA6D;
+  color: white;
+}
+#actual {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+
+}
+#actual td, #actual th {
+  border: 1px solid #826161;
+  padding: 8px;
+  font-size: small;
+}
